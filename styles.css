@@ -457,7 +457,7 @@
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
-    
+    flex-shrink: 0;
   }
   .thr-headholder-1{
     display: flex;
@@ -522,6 +522,7 @@
     padding-left:10px;
     outline: none;
     border: none;
+    width: 0;
   }
   .tweet-button-1{
     flex: 1;
@@ -529,13 +530,12 @@
     color: white;
     background-color:cornflowerblue;
     border-radius: 100px;
-    width: 30%;
+    width: 1000px;
     height: 80%;
     font-size: 100%;
     margin-right: 10px ;
     align-items: center;
     transition: opacity 1s, scale 0.1s;
-
   }
   .tweet-button-1:hover{
     opacity: 0.8;
