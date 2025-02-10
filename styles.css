@@ -491,7 +491,7 @@
     flex-direction: column;
     background-color:cornflowerblue;  
   }
-  .navigation-icons{
+  .navigation-panel img{
     width: 100%;
   }
   .user-avatar{
@@ -561,3 +561,4 @@
     font-family: Arial;
     font-size: 16px;
   }
+  
